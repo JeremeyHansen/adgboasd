@@ -1,0 +1,50 @@
+.service-container{
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.service-title{
+    color: white;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.service-container h3{
+    color: #76bbff;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+.service-container div{
+    width: 33%;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 2px 0 0px;
+}
+.final-div{
+    border-style: none;
+    border-width: 0 0 0 0;
+}
+.service-container1{
+    justify-content: center;
+}
+
+.button{
+    border-style: none;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: #76bbff;
+    padding: 20px;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: white 0 0 10px;
+}

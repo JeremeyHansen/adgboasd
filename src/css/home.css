@@ -1,0 +1,44 @@
+.home-container{
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.home-title{
+    position: fixed;
+    top: 30%;
+    left: 5%;
+
+}
+.title{
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+.title span{
+    color: #76bbff;
+}
+
+.paragraph{
+    font-family: monospace;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 50%;
+    left: 15%;
+    width: 40%;
+    text-align: left;
+}
+
+.home-image-container{
+    position: fixed;
+    z-index: -1;
+    top: 20%;
+    left: 58%;
+    display: flex;
+}
+
+.home-image {
+    width: 95%;
+    height: 50%;
+}

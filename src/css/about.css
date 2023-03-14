@@ -1,0 +1,9 @@
+.about-container{
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-title{
+    text-transform: uppercase;
+}
