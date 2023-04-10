@@ -3,36 +3,48 @@
     color: white;
     text-align: center;
     justify-content: space-around;
-}
 
-.service-title{
-    color: white;
-    text-align: center;
-    text-transform: uppercase
 }
 
 .service-container h3{
     color: #76bbff;
     text-decoration: underline;
     text-transform: uppercase;
+    font-family: monospace;
+    font-size: 1.3rem;
 }
 
 
-.service-container div{
+.first-div {
     width: 33%;
     border-style: solid;
     border-color: white;
     border-width: 0 2px 0 0px;
 }
-.final-div{
-    border-style: none;
+.second-div{
+    width: 33%;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 2px 0 0px;
+}
+.final-div {
+    width: 33%;
+    border-style: solid;
+    border-color: white;
     border-width: 0 0 0 0;
 }
 .service-container1{
     justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.service-container1 h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase
 }
 
-.button{
+.button-div button{
     border-style: none;
     border-style: solid;
     border-width: 2px;
@@ -40,11 +52,38 @@
     border-color: white;
     background-color: #76bbff;
     padding: 20px;
-    width: 40%;
-    margin-left: 30%;
+    width: 20%;
+    margin-left: 40%;
     margin-top: 10%;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
-    box-shadow: white 0 0 10px;
+}
+
+.button-div button:hover{
+    cursor: pointer;
+}
+.service-div{
+    text-align: left;
+}
+
+.service-div p{
+    padding-left: 40%;
+    
+}
+.left-pressure{
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    bottom: 0;    
+    width: 400px;
+
+}
+
+.right-pressure{
+    z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 400px;
 }
