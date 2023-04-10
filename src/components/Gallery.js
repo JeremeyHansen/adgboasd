@@ -31,22 +31,25 @@ export default function Gallery() {
           containerClass="carousel-container"
         >
           <div className="car">
-            <img src="https://cdnassets.stihlusa.com/1630514494-rb400act2005.jpg?fit=crop&h=554&w=984"></img>
+            <img src="https://cdnassets.stihlusa.com/1630514494-rb400act2005.jpg?fit=crop&h=554&w=984" alt="hi"></img>
           </div>
           <div className="car">
-            <img src="https://cdnassets.stihlusa.com/1630514494-rb400act2005.jpg?fit=crop&h=554&w=984"></img>
+            <img src="https://cdnassets.stihlusa.com/1630514494-rb400act2005.jpg?fit=crop&h=554&w=984" alt="hi"></img>
           </div>
           <div className="car">
-            <img src="https://cdnassets.stihlusa.com/1630514494-rb400act2005.jpg?fit=crop&h=554&w=984"></img>
+            <img src="https://cdnassets.stihlusa.com/1630514494-rb400act2005.jpg?fit=crop&h=554&w=984" alt="hi"></img>
           </div>
           <div className="car">
-            <img src="https://cdnassets.stihlusa.com/1630514494-rb400act2005.jpg?fit=crop&h=554&w=984"></img>
+            <img src="https://cdnassets.stihlusa.com/1630514494-rb400act2005.jpg?fit=crop&h=554&w=984" alt="hi"></img>
           </div>
           <div className="car">
-            <img src="https://cdnassets.stihlusa.com/1630514494-rb400act2005.jpg?fit=crop&h=554&w=984"></img>
+            <img src="https://cdnassets.stihlusa.com/1630514494-rb400act2005.jpg?fit=crop&h=554&w=984" alt="hi"></img>
           </div>
           <div className="car">
-            <img src="https://cdnassets.stihlusa.com/1630514494-rb400act2005.jpg?fit=crop&h=554&w=984"></img>
+            <img src="https://cdnassets.stihlusa.com/1630514494-rb400act2005.jpg?fit=crop&h=554&w=984" alt="hi"></img>
+          </div>
+          <div className="car">
+            <img src="https://cdnassets.stihlusa.com/1630514494-rb400act2005.jpg?fit=crop&h=554&w=984" alt="hi"></img>
           </div>
         </Carousel>
         ;

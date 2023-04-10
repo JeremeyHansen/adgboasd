@@ -9,6 +9,7 @@
     "3d-react-carousal": "^5.0.0",
     "3d-react-carousel": "^1.0.0",
     "bootstrap": "^5.2.3",
+    "framer-motion": "^10.3.2",
     "react": "^18.2.0",
     "react-3d-carousels": "^1.0.2",
     "react-dom": "^18.2.0",

@@ -16,7 +16,7 @@ export default function Home() {
         </p>
       </div>
       <div className="home-image-container">
-        <img className="home-image" src="https://i.pinimg.com/originals/c8/4b/d5/c84bd5eb5962485518835fbcb86c27b4.gif"></img>
+        <img className="home-image" alt="spinner" src="https://i.pinimg.com/originals/c8/4b/d5/c84bd5eb5962485518835fbcb86c27b4.gif"></img>
       </div>
     </div>
   );

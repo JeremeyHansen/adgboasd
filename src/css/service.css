@@ -20,13 +20,42 @@
 
 .service-container div{
     width: 33%;
+    transition: .3s linear;
+}
+.service-container div:hover{
+    font-size: 1.5rem;
+}
+
+.first-div{
     border-style: solid;
     border-color: white;
     border-width: 0 2px 0 0px;
 }
+
+.service-image-container{
+    position: absolute;
+    width: 100%;
+    top: 42%;
+    z-index: -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-image1{
+    width: 400px;
+    -webkit-filter: blur(1px);
+
+}
+
+.service-image{
+    width: 400px;
+  -webkit-filter: blur(1px);
+}
+
 .final-div{
-    border-style: none;
-    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0px 0 2px;
 }
 .service-container1{
     justify-content: center;
@@ -38,13 +67,22 @@
     border-width: 2px;
     border-radius: 5px;
     border-color: white;
-    background-color: #76bbff;
+    background-color: #212022;
     padding: 20px;
     width: 40%;
     margin-left: 30%;
     margin-top: 10%;
-    color: white;
+    color: #80cbf7;
     text-transform: uppercase;
     font-weight: bold;
     box-shadow: white 0 0 10px;
+    transition: .3s linear;
+}
+
+.button:hover{
+    background-color: #80cbf7;
+    color: white;
+    box-shadow: #80cbf7 0 0 20px, 0 0 40px;
+    cursor: pointer;
+
 }
