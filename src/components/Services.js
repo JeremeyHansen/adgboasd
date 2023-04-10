@@ -41,14 +41,14 @@ export default function Services() {
       </div>
       <div className="button-div">
         <Link to="/contact">
-          <button>Contact For A Free Quote</button>
+          <button class="animate__animated animate__fadeInUpBig">Contact For A Free Quote</button>
         </Link>
       </div>
       <div className="left-image-div">
-        <img className="left-pressure" src={PressureWasher}></img>
+        <img class="animate__animated animate__fadeInBottomLeft" src={PressureWasher}></img>
       </div>
       <div className="right-image-div">
-        <img className="right-pressure" src={PressureWasher2}></img>
+        <img class="animate__animated animate__fadeInBottomRight" src={PressureWasher2}></img>
       </div>
     </div>
   );
