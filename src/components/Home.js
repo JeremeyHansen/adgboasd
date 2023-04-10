@@ -10,7 +10,7 @@ export default function Home() {
       </div>
       <div className="paragraph">
         <p>
-          is your local Charlotte, NC based Pressure and Soft Washing Company.
+          is your local Minneapolis, MN based Pressure and Soft Washing Company.
           We take great pride in providing top quality work and service to home
           owners, businesses and property managers in the Mecklenburg area, as well as neighboring counties.
         </p>
