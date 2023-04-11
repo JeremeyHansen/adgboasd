@@ -1,3 +1,6 @@
+@media only screen and (max-width: 2500px) {
+
+
 .about-container{
     color: white;
     justify-content: center;
@@ -48,4 +51,32 @@
     width: 400px;
     margin-bottom: 100px;
 
+}
+
+} 
+
+@media only screen and (max-width: 450px) {
+    .left-pressure-about img{
+        width: 200px;
+        margin-left: 0px;
+
+
+    }
+    .right-pressure-about img{
+        width: 200px;
+    }
+    .text-about{
+        background-color: rgba(36, 53, 95, 0.9);
+        border-color: white;
+        border-width: 5px;
+        border-style: solid;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 75%;
+        padding: 20px;
+        overflow: scroll;
+        height: 55vh;
+    }
 }
