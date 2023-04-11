@@ -23,7 +23,7 @@ export default function Gallery() {
 
   return (
     <>
-      <h1 className="gal">Gallery</h1>
+      <h1 class="animate__animated animate__flipInY">Gallery</h1>
       <div className="gallery-container">
         <Carousel
           responsive={responsive}

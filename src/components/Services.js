@@ -1,43 +1,55 @@
-import "../css/service.css";
-import { motion, AnimatePresence } from "framer-motion";
+import '../css/service.css'
+import PressureWasher from "../pressure-washer.png";
+import PressureWasher2 from "../pressure-washer (3).png";
+import { Link } from "react-router-dom";
+
+import "animate.css";
 
 export default function Services() {
   return (
     <div className="service-container1">
-      <h1 className="service-title">Services</h1>
+      <h1 class="animate__animated animate__flipInY">Services</h1>
       <div className="service-container">
         <div className="first-div">
-          <h3>Pressure Cleaning</h3>
-          <p>Residential</p>
-          <p>Commercial</p>
-          <p>Roof Cleaning</p>
+          <h3 class="animate__animated animate__rotateInDownLeft">
+            Pressure Cleaning
+          </h3>
+          <div className="service-div">
+            <p class="animate__animated animate__fadeInLeftBig">Residential</p>
+            <p class="animate__animated animate__fadeInLeftBig">Commercial</p>
+            <p class="animate__animated animate__fadeInLeftBig">
+              Roof Cleaning
+            </p>
+          </div>
         </div>
-        <div className="middle-div">
-          <h3>Window Washing</h3>
-          <p>Residential</p>
-          <p>Commercial</p>
-          <p></p>
+        <div className="second-div">
+          <h3 class="animate__animated animate__fadeInDown">Window Washing</h3>
+          <div className="service-div">
+            <p class="animate__animated animate__fadeInUpBig">Residential</p>
+            <p class="animate__animated animate__fadeInUpBig">Commercial</p>
+          </div>
         </div>
         <div className="final-div">
-          <h3>Soft Cleaning</h3>
-          <p>Residential</p>
-          <p>Commercial</p>
+          <h3 class="animate__animated animate__rotateInDownRight">
+            Soft Cleaning
+          </h3>
+          <div className="service-div">
+            <p class="animate__animated animate__fadeInRightBig">Residential</p>
+            <p class="animate__animated animate__fadeInRightBig">Commercial</p>
+          </div>
         </div>
       </div>
-      <button className="button">Contact For A Free Quote</button>
-      <div className="service-image-container">
-        <img
-          className="service-image1"
-          alt="spinner"
-          src="https://i.pinimg.com/originals/c8/4b/d5/c84bd5eb5962485518835fbcb86c27b4.gif"
-        ></img>
-        <img
-          className="service-image"
-          alt="spinner"
-          src="https://i.pinimg.com/originals/c8/4b/d5/c84bd5eb5962485518835fbcb86c27b4.gif"
-        ></img>
+      <div className="button-div">
+        <Link to="/contact">
+          <button class="animate__animated animate__fadeInUpBig">Contact For A Free Quote</button>
+        </Link>
       </div>
-     
+      <div className="left-image-div">
+        <img class="animate__animated animate__fadeInBottomLeft" src={PressureWasher}></img>
+      </div>
+      <div className="right-image-div">
+        <img class="animate__animated animate__fadeInBottomRight" src={PressureWasher2}></img>
+      </div>
     </div>
   );
 }

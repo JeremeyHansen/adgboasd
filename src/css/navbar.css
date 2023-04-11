@@ -1,93 +1,173 @@
-.nav {
-  position: sticky;
-  top: 0;
-  border-style: solid;
-  border-color: #76bbff;
-  border-width: 0px 0px 2px 0px;
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  padding: 10px;
-  color: #edf5e1;
-  background-color: #000000;
+
+@media only screen and (max-width: 2500px) {
+
   
+  .nav {
+    position: sticky;
+    top: 0;
+    border-style: solid;
+    border-color: #76bbff;
+    border-width: 0px 0px 2px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 10px;
+    color: #edf5e1;
+    background-image: linear-gradient(to right, black 40%, #76bbff);
+    
+  }
+  
+  .footer {
+      font-family: monospace;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;   
+      border-style: solid;
+      border-color: #76bbff;
+      border-width: 2px 0px 0px 0px;
+      background-color: black;
+  }
+  
+  .footer span{
+      color: #76bbff;
+  }
+  
+  .site-title {
+    padding-left: 20px;
+  }
+  
+  .nav-title {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #edf5e1;
+    font-weight: bold;
+  }
+  .nav-title:hover {
+    color: #edf5e1;
+  }
+  
+  .period {
+    color: #05386b;
+  }
+  
+  .desktop-nav {
+    padding: 0;
+    margin: 0;
+    font-size: smaller;
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: inherit;
+  }
+  .nav li {
+    transition: 0.3s linear;
+    font-size: larger;
+    color: #edf5e1;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .nav li:hover {
+    color: #edf5e1;
+  }
+  
+  .nav li.active {
+    border-radius: 6px;
+    color: #76bbff;
+  }
+  
+  .quality {
+    color: #76bbff;
+  }
+  
+  .invisible {
+      display: none;
+  }
+  .hamburger{
+    display: none;
+  }
 }
 
-.footer {
-    font-family: monospace;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    display: flex;
+
+@media only screen and (max-width: 480px) {
+  .footer {
+    display: block;
     justify-content: space-around;
     text-align: center;   
     border-style: solid;
     border-color: #76bbff;
     border-width: 2px 0px 0px 0px;
-    background-color: #000000;
+    background-color: black;
 }
-
-.footer span{
-    color: #76bbff;
-}
-
-.site-title {
-  padding-left: 20px;
-}
-
-.nav-title {
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  color: #edf5e1;
-  font-weight: bold;
-}
-.nav-title:hover {
-  color: #edf5e1;
-}
-
-.period {
-  color: #05386b;
-}
-
-.desktop-nav {
-  padding: 0;
-  margin: 0;
-  font-size: smaller;
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-}
-
-.nav a {
-  text-decoration: none;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  color: inherit;
-}
-.nav li {
-  transition: 0.3s linear;
-  font-size: larger;
-  color: #edf5e1;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.nav li:hover {
-  color: #edf5e1;
-}
-
-.nav li.active {
-  border-radius: 6px;
-  color: #76bbff;
-}
-
-.quality {
-  color: #76bbff;
-}
-
-.invisible {
+  .desktop-nav{
     display: none;
+  }
+  .nav {
+    align-items: center;
+    padding: none;
+    overflow: hidden;
+  }
+
+  .hamburger{
+    display: contents;
+    z-index: 11;
+
+  }
+  .mobile-nav{
+    position: sticky;
+    background-color: white;
+    justify-content: center;
+    width: 50%;
+    text-align: right;
+    background-color: inherit;
+    display: grid;
+    height: 20vh;
+    animation: downDrop 0.3s linear;
+  }
+
+  .mobile-nav li{
+    text-align: right;
+    width: 130px;
+    border-style: solid;
+    border-color: #edf5e1;
+    border-width: 0 0px 3px 0px;
+  }
+  
+  .mobile-nav a{
+    text-decoration: none;
+  }
+
+  @keyframes downDrop {
+    0%{
+      top: 0px;
+      height: 0
+    }
+    100%{
+      top: 68px; 
+      height: 20vh;
+
+    }
+  }
+
+  .nav-title{
+    font-size: 2rem;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .site-title{
+    padding-left: 0;
+  }
 }

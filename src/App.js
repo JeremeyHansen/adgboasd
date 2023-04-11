@@ -10,18 +10,18 @@ import { useEffect, useState } from 'react';
 import Footer from './components/Footer.js'
 
 function App() {
-  const [className, setClassName] = useState('starter-container')
+  // const [className, setClassName] = useState('starter-container')
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setClassName('invisible')
-    }, 2900)
-    return () => clearTimeout(timer)
-  }, [])
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setClassName('invisible')
+  //   }, 2900)
+  //   return () => clearTimeout(timer)
+  // }, [])
 
   return (
     <>
-    <StarterPage className={className}/>
+    {/* <StarterPage className={className}/> */}
     <Nav />
       <div className="com-container">
         <Routes>

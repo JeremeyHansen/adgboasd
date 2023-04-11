@@ -11,12 +11,12 @@
     left: 5%;
 
 }
-.title{
+.home-title h1{
     font-size: 5rem;
     text-transform: uppercase;
 }
 
-.title span{
+.home-title span{
     color: #76bbff;
 }
 
@@ -34,7 +34,7 @@
     position: fixed;
     z-index: -1;
     top: 20%;
-    left: 63%;
+    left: 58%;
     display: flex;
 }
 
