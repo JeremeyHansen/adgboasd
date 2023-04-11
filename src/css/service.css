@@ -17,6 +17,13 @@
 
 .first-div {
     width: 33%;
+    transition: .3s linear;
+}
+.service-container div:hover{
+    font-size: 1.5rem;
+}
+
+.first-div{
     border-style: solid;
     border-color: white;
     border-width: 0 2px 0 0px;
@@ -50,12 +57,12 @@
     border-width: 2px;
     border-radius: 5px;
     border-color: white;
-    background-color: #76bbff;
+    background-color: #212022;
     padding: 20px;
     width: 20%;
     margin-left: 40%;
     margin-top: 10%;
-    color: white;
+    color: #80cbf7;
     text-transform: uppercase;
     font-weight: bold;
 }

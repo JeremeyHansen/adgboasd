@@ -1,10 +1,9 @@
-import "../css/service.css";
+import '../css/service.css'
 import PressureWasher from "../pressure-washer.png";
 import PressureWasher2 from "../pressure-washer (3).png";
 import { Link } from "react-router-dom";
 
 import "animate.css";
-
 export default function Services() {
   return (
     <div className="service-container1">
