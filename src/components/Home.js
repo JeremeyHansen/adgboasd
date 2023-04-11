@@ -18,7 +18,7 @@ export default function Home() {
         </p>
       </div>
       <div className="home-image-container">
-        <img class="animate__animated animate__fadeInUp" src={PressureWasher}></img>
+        <img alt="clean" class="animate__animated animate__fadeInUp" src={PressureWasher}></img>
       </div>
     </div>
   );

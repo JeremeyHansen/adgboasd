@@ -45,10 +45,10 @@ export default function Services() {
         </Link>
       </div>
       <div className="left-image-div">
-        <img class="animate__animated animate__fadeInBottomLeft" src={PressureWasher}></img>
+        <img alt="clean" class="animate__animated animate__fadeInBottomLeft" src={PressureWasher}></img>
       </div>
       <div className="right-image-div">
-        <img class="animate__animated animate__fadeInBottomRight" src={PressureWasher2}></img>
+        <img alt="clean" class="animate__animated animate__fadeInBottomRight" src={PressureWasher2}></img>
       </div>
     </div>
   );

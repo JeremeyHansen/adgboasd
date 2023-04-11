@@ -47,10 +47,10 @@ export default function Contact(){
         <button className="send-btn"type="submit" onClick={() => setButtonText("Sent!")}>{buttonText}</button>
       </form>
       <div className="left-pressure-about">
-          <img class="animate__animated animate__flipInY"src={PressureWasher}></img>
+          <img alt="clean" class="animate__animated animate__flipInY"src={PressureWasher}></img>
         </div>
         <div className="right-pressure-about">
-          <img class="animate__animated animate__flipInY" src={PressureWasher2}></img>
+          <img alt="clean" class="animate__animated animate__flipInY" src={PressureWasher2}></img>
         </div>
       </div>
     );

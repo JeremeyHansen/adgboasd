@@ -31,10 +31,10 @@ export default function About() {
           </p>
         </div>
         <div className="left-pressure-about">
-          <img class="animate__animated animate__flipInY"src={PressureWasher}></img>
+          <img class="animate__animated animate__flipInY" src={PressureWasher} alt="clean"></img>
         </div>
         <div className="right-pressure-about">
-          <img class="animate__animated animate__flipInY" src={PressureWasher2}></img>
+          <img class="animate__animated animate__flipInY" alt="clean" src={PressureWasher2}></img>
         </div>
       </div>
     </div>
