@@ -1,44 +1,85 @@
-.home-container{
-    width: 100%;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-.home-title{
-    position: fixed;
-    top: 30%;
-    left: 5%;
 
-}
-.home-title h1{
-    font-size: 5rem;
-    text-transform: uppercase;
+@media only screen and (max-width: 2500px) {
+    .home-container{
+        width: 100%;
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .home-title{
+        position: fixed;
+        top: 30%;
+        left: 5%;
+    
+    }
+    .home-title h1{
+        font-size: 5rem;
+        text-transform: uppercase;
+    }
+    
+    .home-title span{
+        color: #76bbff;
+    }
+    
+    .paragraph{
+        font-family: monospace;
+        font-size: 1.2rem;
+        position: fixed;
+        top: 50%;
+        left: 15%;
+        width: 40%;
+        text-align: left;
+    }
+    
+    .home-image-container{
+        position: fixed;
+        z-index: -1;
+        top: 25%;
+        left: 62%;
+        display: flex;
+    }
+    
+    .home-image-container img{
+        width: 85%;
+        height: 50%;
+    }
 }
 
-.home-title span{
-    color: #76bbff;
-}
+@media only screen and (max-width: 480px) {
+    .home-container{
+        width: 100%;
+        color: white;
+        text-align: right;
+        display: flex;
+        justify-content: center;
+    }
+    .home-title{
+        position: fixed;
+        top: 10%;
+        right: 5%;
+    }
+    .home-title h1{
+        font-size: 4rem;
+    }
+    
+    
+    .paragraph{
+        font-family: monospace;
+        font-size: 1rem;
+        position: fixed;
+        top: 40%;
+        left: 5%;
+        width: 70%;
+        text-align: left;
+    }
+    
+    .home-image-container{
+        position: fixed;
+        z-index: -1;
+        top: 65%;
+        left: 62%;
+    }
 
-.paragraph{
-    font-family: monospace;
-    font-size: 1.2rem;
-    position: fixed;
-    top: 50%;
-    left: 15%;
-    width: 40%;
-    text-align: left;
-}
-
-.home-image-container{
-    position: fixed;
-    z-index: -1;
-    top: 25%;
-    left: 62%;
-    display: flex;
-}
-
-.home-image-container img{
-    width: 85%;
-    height: 50%;
-}
+  }
+  

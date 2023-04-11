@@ -10,6 +10,7 @@
     "3d-react-carousel": "^1.0.0",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.2.3",
+    "emailjs": "^4.0.1",
     "react": "^18.2.0",
     "react-3d-carousels": "^1.0.2",
     "react-dom": "^18.2.0",
