@@ -128,14 +128,15 @@
         border-style: none;
     }
     .service-div{
-        text-align: center;
+        text-align: right;
+        padding-right: 80px;
     }
     
     .service-div p{
         padding-left: 0%;
     }
     .service-div p:before {
-        content: "";
+        content: "• ";
     }
     .button-div button{
         display: none;
