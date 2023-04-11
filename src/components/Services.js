@@ -50,6 +50,5 @@ export default function Services() {
       <div className="right-image-div">
         <img class="animate__animated animate__fadeInBottomRight" src={PressureWasher2}></img>
       </div>
-    </div>
   );
 }
