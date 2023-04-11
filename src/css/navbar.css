@@ -142,8 +142,10 @@
     width: 130px;
     border-style: solid;
     border-color: #edf5e1;
-    border-width: 0 0px 3px 0px;
+    border-width: 0 0px 2px 0px;
   }
+
+  
   
   .mobile-nav a{
     text-decoration: none;

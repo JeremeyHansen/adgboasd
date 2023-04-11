@@ -1,9 +1,18 @@
-.gallery-container{
-    margin-top: 10px;
+#gal-title {
+  color: #edf5e1;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.03rem;
 }
 
-.gal{
-    color: white;
-    text-transform: capitalize;
-    text-align: center;
+.gallery-container {
+  padding: 18px 18px;
+}
+
+.gallery-container img {
+  margin: 0 auto;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
