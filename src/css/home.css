@@ -59,17 +59,20 @@
         position: fixed;
         top: 10%;
         right: 12%;
+        z-index: -1;
+
     
     }
     .home-title h1{
         font-size: 4rem;
         text-transform: uppercase;
+        z-index: -1;
     }
     .paragraph{
         font-family: monospace;
         font-size: 1.2rem;
         position: fixed;
-        top: 37%;
+        top: 40%;
         left: 5%;
         width: 70%;
         text-align: left;
