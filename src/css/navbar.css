@@ -95,6 +95,9 @@
   .invisible {
       display: none;
   }
+  .hamburger{
+    display: none;
+  }
 }
 
 
@@ -108,8 +111,54 @@
     border-width: 2px 0px 0px 0px;
     background-color: black;
 }
-  .nav li{
+  .desktop-nav{
     display: none;
+  }
+  .nav {
+    align-items: center;
+    padding: none;
+    overflow: hidden;
+  }
+
+  .hamburger{
+    display: contents;
+    z-index: 11;
+
+  }
+  .mobile-nav{
+    position: sticky;
+    background-color: white;
+    justify-content: center;
+    width: 50%;
+    text-align: right;
+    background-color: inherit;
+    display: grid;
+    height: 20vh;
+    animation: downDrop 0.3s linear;
+  }
+
+  .mobile-nav li{
+    text-align: right;
+    width: 130px;
+    border-style: solid;
+    border-color: #edf5e1;
+    border-width: 0 0px 3px 0px;
+  }
+  
+  .mobile-nav a{
+    text-decoration: none;
+  }
+
+  @keyframes downDrop {
+    0%{
+      top: 0px;
+      height: 0
+    }
+    100%{
+      top: 68px; 
+      height: 20vh;
+
+    }
   }
 
   .nav-title{

@@ -1,4 +1,5 @@
-.service-container{
+@media only screen and (max-width: 2500px) {
+    .service-container{
     display: flex;
     color: white;
     text-align: center;
@@ -86,4 +87,53 @@
     right: 0;
     bottom: 0;
     width: 400px;
+}
+}
+@media only screen and (max-width: 480px) {
+    .service-container{
+        display: block;
+        color: white;
+        text-align: center;    
+    }
+    .left-image-div img{
+        z-index: -1;
+        position: fixed;
+        left: 0;
+        bottom: 0;    
+        width: 200px;   
+    }
+    
+    .right-image-div img{
+        display: none;
+    }
+    .first-div {
+        width: 100%;
+        border-style: none;
+
+    }
+    .second-div{
+        width: 100%;
+        border-style: none;
+
+    }
+    .final-div {
+        width: 100%;
+        border-style: none;
+    }
+    .service-div{
+        text-align: center;
+    }
+    
+    .service-div p{
+        padding-left: 0%;
+    }
+    .service-div p:before {
+        content: "";
+    }
+    .button-div button{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+    }
 }
