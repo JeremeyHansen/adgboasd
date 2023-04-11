@@ -9,11 +9,16 @@
 
 .service-container h3{
     color: #76bbff;
-    text-decoration: underline;
     text-transform: uppercase;
     font-size: 1.3rem;
 }
 
+.service-container hr{
+width: 75%;
+border-color: #76bbff;
+
+
+}
 
 .first-div {
     width: 33%;
@@ -46,7 +51,9 @@
     overflow: hidden;
 }
 .service-container1 h1{
-    color: white;
+    color: #edf5e1;
+    letter-spacing: 0.03rem;
+    font-size: 36px;
     text-align: center;
     text-transform: uppercase
 }
@@ -98,6 +105,7 @@
 }
 @media only screen and (max-width: 480px) {
     .service-container{
+        overflow-x: hidden;
         display: block;
         color: white;
         text-align: center;    

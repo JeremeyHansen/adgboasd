@@ -1,4 +1,4 @@
-import '../css/service.css'
+import "../css/service.css";
 import PressureWasher from "../pressure-washer.png";
 import PressureWasher2 from "../pressure-washer (3).png";
 import { Link } from "react-router-dom";
@@ -13,7 +13,9 @@ export default function Services() {
         <div className="first-div">
           <h3 class="animate__animated animate__rotateInDownLeft">
             Pressure Cleaning
+            <hr></hr>
           </h3>
+
           <div className="service-div">
             <p class="animate__animated animate__fadeInLeftBig">Residential</p>
             <p class="animate__animated animate__fadeInLeftBig">Commercial</p>
@@ -23,7 +25,10 @@ export default function Services() {
           </div>
         </div>
         <div className="second-div">
-          <h3 class="animate__animated animate__fadeInDown">Window Washing</h3>
+          <h3 class="animate__animated animate__fadeInDown">
+            Window Washing
+            <hr></hr>
+          </h3>
           <div className="service-div">
             <p class="animate__animated animate__fadeInUpBig">Residential</p>
             <p class="animate__animated animate__fadeInUpBig">Commercial</p>
@@ -32,6 +37,7 @@ export default function Services() {
         <div className="final-div">
           <h3 class="animate__animated animate__rotateInDownRight">
             Soft Cleaning
+            <hr></hr>
           </h3>
           <div className="service-div">
             <p class="animate__animated animate__fadeInRightBig">Residential</p>
@@ -41,14 +47,24 @@ export default function Services() {
       </div>
       <div className="button-div">
         <Link to="/contact">
-          <button class="animate__animated animate__fadeInUpBig">Contact For A Free Quote</button>
+          <button class="animate__animated animate__fadeInUpBig">
+            Contact For A Free Quote
+          </button>
         </Link>
       </div>
       <div className="left-image-div">
-        <img alt="clean" class="animate__animated animate__fadeInBottomLeft" src={PressureWasher}></img>
+        <img
+          alt="clean"
+          class="animate__animated animate__fadeInBottomLeft"
+          src={PressureWasher}
+        ></img>
       </div>
       <div className="right-image-div">
-        <img alt="clean" class="animate__animated animate__fadeInBottomRight" src={PressureWasher2}></img>
+        <img
+          alt="clean"
+          class="animate__animated animate__fadeInBottomRight"
+          src={PressureWasher2}
+        ></img>
       </div>
     </div>
   );
