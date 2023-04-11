@@ -17,7 +17,6 @@
 width: 75%;
 border-color: #76bbff;
 
-
 }
 
 .first-div {
@@ -127,6 +126,10 @@ border-color: #76bbff;
         border-style: none;
 
     }
+
+    .service-container hr{
+        margin-left: 200px;        
+        }
     .second-div{
         width: 100%;
         border-style: none;

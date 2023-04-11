@@ -112,7 +112,6 @@
     display: none;
   }
   .nav {
-    align-items: center;
     padding: none;
     overflow: hidden;
   }
@@ -120,32 +119,36 @@
   .hamburger{
     display: contents;
     z-index: 11;
-
+    position: fixed;
+    left: 0;
+    bottom: 0;
   }
+
+  .hammy {
+    top: 0;
+    right: 0;
+  }
+
   .mobile-nav{
     position: sticky;
-    background-color: white;
-    justify-content: center;
-    width: 50%;
-
     text-align: right;
     background-color: inherit;
-    display: grid;
-    height: 20vh;
+    height: 22vh;
+    margin-top: 60px;
     animation: downDrop 0.3s linear;
+    padding: 0 0 0 0;
   }
 
   .mobile-nav li{
     text-align: right;
     list-style-type: none;
-    width: 130px;
+    width: 200px;
+    padding-top: 15px;
     border-style: solid;
     font-size: 18px;
     border-color: #edf5e1;
     border-width: 0 0px 2px 0px;
   }
-
-  
   
   .mobile-nav a{
     text-decoration: none;

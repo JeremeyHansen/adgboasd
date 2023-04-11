@@ -46,6 +46,10 @@
         width: 95%;
         height: 50%;
     }
+
+    .mobile-addy{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -63,6 +67,15 @@
         z-index: -1;
 
     
+    }
+
+    .mobile-addy{
+        display: contents;
+        font-size: .8rem;
+    }
+
+    .addy {
+        color: #76bbff;
     }
     .home-title h1{
         font-size: 4rem;

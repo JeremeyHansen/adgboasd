@@ -16,6 +16,9 @@ export default function Home() {
           We take great pride in providing top quality work and service to home
           owners, businesses and property managers in the Mecklenburg area, as well as neighboring counties.
         </p>
+        <p className="mobile-addy"><span className="addy">Email: </span>purequalitywashing@gmail.com</p>
+        <p></p>
+        <p className="mobile-addy"><span className="addy">Phone Number: </span>(704)-614-5084</p>
       </div>
       <div className="home-image-container">
         <img alt="clean" class="animate__animated animate__fadeInUp" src={PressureWasher}></img>
