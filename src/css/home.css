@@ -11,12 +11,12 @@
     left: 5%;
 
 }
-.title{
+.home-title h1{
     font-size: 5rem;
     text-transform: uppercase;
 }
 
-.title span{
+.home-title span{
     color: #76bbff;
 }
 
