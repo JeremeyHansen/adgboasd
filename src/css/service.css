@@ -113,10 +113,12 @@ border-color: #76bbff;
         display: block;
         color: white;
         text-align: right;
-        padding-right: 50px;    
+        padding-right: 50px;  
+        background-color: transparent;
+  
     }
     .left-image-div img{
-        z-index: -1;
+        z-index: 1;
         position: fixed;
         left: 0;
         bottom: 0;    
@@ -129,6 +131,7 @@ border-color: #76bbff;
     .first-div {
         width: 100%;
         border-style: none;
+        background-color: none;
 
     }
 
@@ -138,11 +141,14 @@ border-color: #76bbff;
     .second-div{
         width: 100%;
         border-style: none;
+        background-color: none;
 
     }
     .final-div {
         width: 100%;
         border-style: none;
+        background-color: none;
+
     }
     .service-div{
         text-align: right;
