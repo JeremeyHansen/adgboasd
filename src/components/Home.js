@@ -25,7 +25,7 @@ export default function Home() {
         <p></p>
         <div className="mobile-addy">
           <p class="animate__animated animate__backInRight">
-            <span className="addy">Phone Number: </span>(704)-614-5084
+            <span className="addy">Phone Number: </span><a href="tel:+17046145084">(704)-614-5084</a>
           </p>
         </div>
       </div>
