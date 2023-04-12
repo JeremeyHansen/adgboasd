@@ -68,7 +68,6 @@ export default function Gallery() {
           </div>
      </Carousel>
      </div>
-      ;
     </>
   );
 }
