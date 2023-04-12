@@ -132,7 +132,7 @@
 
   .mobile-nav li{
     list-style-type: disclosure-open;
-    /* width: 200px; */
+    width: 140px;
     padding-top: 15px;
     border-style: solid;
     font-size: 18px;
