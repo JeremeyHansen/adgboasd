@@ -46,6 +46,14 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+  .contact-form input:focus {
+    outline: 0;
+    outline-color: transparent;
+    outline-style: none;
+    background: lightblue;
+  }
+
   .contact-form textarea {
     width: 375px;
     height: 100px;
@@ -59,6 +67,17 @@
 
   input:focus::placeholder {
     color: transparent;
+  }
+
+  textarea:focus::placeholder {
+    color: transparent;
+  }
+
+  .contact-form textarea:focus {
+    outline: 0;
+    outline-color: transparent;
+    outline-style: none;
+    background: lightblue;
   }
 
   input::placeholder {
