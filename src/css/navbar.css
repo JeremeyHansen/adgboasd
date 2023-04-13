@@ -115,6 +115,8 @@
   }
 }
 
+
+
 @media only screen and (max-width: 480px) {
   .footer {
     display: none;
@@ -131,6 +133,9 @@
   .hamburger {
     display: contents;
   }
+
+
+  /*        MOBILE NAV            */
 
   .mobile-nav {
     position: sticky;
@@ -152,6 +157,11 @@
     border-width: 0 0px 2px 0px;
   }
 
+  .hamburger-react{
+top: 0;
+right: 0;
+position: absolute !important;
+  }
   .mobile-nav a {
     text-decoration: none;
   }
