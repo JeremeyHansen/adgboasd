@@ -19,13 +19,21 @@ export default function Home() {
         </p>
         <div className="mobile-addy">
           <p class="animate__animated animate__backInLeft">
-            <span className="addy">Email: </span>purequalitywashing@gmail.com
+            <span className="addy">
+              Email:
+              <a href="mailto:purequalitywashing@gmail.com?Subject=Leave%20your%20name%20and%20number%20and%20tell%20us%20a%20about%20your%20project.%20Thanks!">
+                {" "}
+                purequalitywashing@gmail.com
+              </a>
+            </span>
           </p>
         </div>
         <p></p>
         <div className="mobile-addy">
           <p class="animate__animated animate__backInRight">
-            <span className="addy">Phone Number: </span><a href="tel:+17046145084">(704)-614-5084</a>
+            <span className="addy">
+              Phone Number:<a href="tel:+17046145084"> (704)-614-5084</a>{" "}
+            </span>
           </p>
         </div>
       </div>

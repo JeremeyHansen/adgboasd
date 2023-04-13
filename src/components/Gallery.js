@@ -10,6 +10,7 @@ import garagebefore from "../assets/garagebefore.jpg";
 import garageafter from "../assets/garageafter.jpg";
 import driveway2before from "../assets/driveway2before.jpg";
 import driveway2after from "../assets/driveway2after.jpg";
+import sidewalk from "../assets/sidewalk.jpg";
 
 export default function Gallery() {
   const responsive = {
@@ -65,6 +66,9 @@ export default function Gallery() {
           </div>
           <div className="car">
           <img src={driveway2after} alt="hi"></img>
+          </div>
+          <div className="car">
+          <img src={sidewalk} alt="hi"></img>
           </div>
      </Carousel>
      </div>
