@@ -2,6 +2,7 @@ import "../css/navbar.css";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import { useState } from "react";
 import { Spin as Hamburger } from "hamburger-react";
+// import BuzzVend from "../buzzvend3.png";
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
@@ -14,13 +15,13 @@ export default function Nav() {
     <nav className="nav">
       <Link to="/" className="nav-title">
         <span className="site-title">
-          Pure <span className="quality">Quality</span>
+          Buzz <span className="quality">Box</span>.
         </span>
+        {/* <img className="nav-logo" alt="bb logo" src={BuzzVend}></img> */}
       </Link>
       <ul className="desktop-nav">
         <CustomLink to="/about">About</CustomLink>
         <CustomLink to="/services">Services</CustomLink>
-        <CustomLink to="/gallery">Gallery</CustomLink>
         <CustomLink to="/contact">Contact</CustomLink>
       </ul>
       <div onClick={handleOpen} className="hamburger">

@@ -1,60 +1,41 @@
 @media only screen and (max-width: 2500px) {
   .nav {
-    position: sticky;
+    position: relative;
+    background-color: #412F2D;
     top: 0;
+    height: 70px;
     border-style: solid;
-    border-color: #76bbff;
+    border-color: #F0D3A7;
     border-width: 0px 0px 2px 0px;
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
+    text-align: left; /* Updated */
     padding: 10px;
-    color: #edf5e1;
+    color: #F0D3A7;
     letter-spacing: 0.03rem;
-    background-image: black;
+    z-index: 10;
   }
 
-  .footer {
-    font-family: monospace;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    border-style: solid;
-    border-color: #76bbff;
-    border-width: 2px 0px 0px 0px;
-    background-color: black;
+  .nav-logo{
+    height: 80px;
   }
-
-  .footer span {
-    color: #76bbff;
-    font-size: 16px;
-  }
-  .footer a {
-    text-decoration: none;
-    font-size: 14px;
-  }
-
+  
   .site-title {
     padding-left: 20px;
   }
 
   .nav-title {
     font-size: 2.5rem;
-    text-transform: uppercase;
-    color: #edf5e1;
+    color: #F0D3A7;
     font-weight: bold;
+    transition: .3s ease;
   }
   .nav-title:hover {
-    color: #edf5e1;
+    color: #EB734A;
   }
 
   .period {
-    color: #05386b;
+    color: #F0D3A7;
   }
 
   .desktop-nav {
@@ -64,6 +45,7 @@
     list-style: none;
     display: flex;
     gap: 1.5rem;
+    margin-right: 50px;
   }
 
   .nav a {
@@ -76,10 +58,7 @@
 
   .nav li {
     padding-right: 12px;
-    /* transition: 0.3s linear; */
     font-size: larger;
-    /* color: #edf5e1; */
-    text-transform: uppercase;
     font-weight: bold;
 
     margin: 0 -0.25rem;
@@ -88,21 +67,20 @@
   }
   @media (hover: hover) and (pointer: fine) {
     .nav li {
-      color: #76bbff;
-      box-shadow: inset 0 0 0 0 #76bbff;
+      color: #F0D3A7;
+      box-shadow: inset 0 0 0 0 #F0D3A7;
     }
     .nav li:hover {
-      box-shadow: inset 1px 0px 0px 0 #76bbff;
-      color: #edf5e1;
+      color: #EB734A;
     }
 
     .nav li.active {
-      color: #edf5e1;
+      color: #EB734A;
     }
   }
 
   .quality {
-    color: #76bbff;
+    color: #ea714d;
   }
 
   .invisible {
@@ -125,7 +103,7 @@
   .nav {
     padding: none;
     overflow: hidden;
-    background-color: black;
+    background-color: #412F2D;
   }
 
   .hamburger {
@@ -142,7 +120,7 @@
     margin-top: 60px;
     animation: downDrop 0.3s linear;
     padding: 0 0 0 0;
-    background-color: black;
+    background-color: #412F2D;
   }
 
   .mobile-nav li {
@@ -151,7 +129,7 @@
     padding-top: 15px;
     border-style: solid;
     font-size: 18px;
-    border-color: #edf5e1;
+    border-color: #F0D3A7;
     border-width: 0 0px 2px 0px;
   }
 

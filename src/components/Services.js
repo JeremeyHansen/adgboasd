@@ -1,70 +1,45 @@
 import "../css/service.css";
-import PressureWasher from "../pressure-washer.png";
-import PressureWasher2 from "../pressure-washer (3).png";
 import { Link } from "react-router-dom";
-
+import Logo from "../buzzvend.png"
 import "animate.css";
+
 
 export default function Services() {
   return (
     <div className="service-container1">
-      <h1 class="animate__animated animate__flipInY">Services</h1>
+      <div className="title-container">
+        <h1 className="service-title">Why be sober, </h1>
+        <h2>when you can be</h2>
+          <div className="buzz-title">buzzed?</div>
+      </div>
+      <div className="top-div">
       <div className="service-container">
-        <div className="first-div">
-          <h3 class="animate__animated animate__rotateInDownLeft">
-            Pressure Cleaning
-            <hr></hr>
-          </h3>
+          <div className="service-div">
+            <h2 class="animate__animated animate__fadeInLeftBig">Sales</h2>
+            <p>Our vending machine not only elevates the customer experience but also boosts revenue by encouraging longer stays with more spending opportunities </p>
+        </div>
+        <div className="service-div">
+            <h2 class="animate__animated animate__fadeInLeftBig">Amenities</h2>
+            <p>Enhance your guests' experience with amenities tailored specific to your location, providing a fun and unique time for your guests. </p>
 
-          <div className="service-div">
-            <p class="animate__animated animate__fadeInLeftBig">Residential</p>
-            <p class="animate__animated animate__fadeInLeftBig">Commercial</p>
-            <p class="animate__animated animate__fadeInLeftBig">
-              Roof Cleaning
-            </p>
           </div>
-        </div>
-        <div className="second-div">
-          <h3 class="animate__animated animate__fadeInDown">
-            Window Washing
-            <hr></hr>
-          </h3>
-          <div className="service-div">
-            <p class="animate__animated animate__fadeInUpBig">Residential</p>
-            <p class="animate__animated animate__fadeInUpBig">Commercial</p>
+        <div className="service-div">
+            <h2 class="animate__animated animate__fadeInLeftBig">Profit Sharing</h2>
+            <p>When we make money, you make money! We operate on a profit-share model, ensuring mutual success and sustainable growth. </p>
+
           </div>
-        </div>
-        <div className="final-div">
-          <h3 class="animate__animated animate__rotateInDownRight">
-            Soft Cleaning
-            <hr></hr>
-          </h3>
-          <div className="service-div">
-            <p class="animate__animated animate__fadeInRightBig">Residential</p>
-            <p class="animate__animated animate__fadeInRightBig">Commercial</p>
-          </div>
-        </div>
+      </div>
+      <div className="service-img">
+        <img alt="logo" src={Logo}>
+        </img>
+      </div>
       </div>
       <div className="button-div">
         <Link to="/contact">
           <button class="animate__animated animate__fadeInUpBig">
-            Contact For A Free Quote
+            Contact
           </button>
         </Link>
-      </div>
-      <div className="left-image-div">
-        <img
-          alt="clean"
-          class="animate__animated animate__fadeInBottomLeft"
-          src={PressureWasher}
-        ></img>
-      </div>
-      <div className="right-image-div">
-        <img
-          alt="clean"
-          class="animate__animated animate__fadeInBottomRight"
-          src={PressureWasher2}
-        ></img>
       </div>
     </div>
   );

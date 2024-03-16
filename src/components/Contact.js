@@ -1,8 +1,6 @@
 import { useRef, useState, useEffect } from 'react';
 // import emailjs from '@emailjs/browser';
 import "../css/contact.css";
-import PressureWasher from "../pressure-washer.png";
-import PressureWasher2 from "../pressure-washer (3).png";
 
 
 export default function Contact(){
@@ -46,12 +44,6 @@ export default function Contact(){
         <textarea name="message" placeholder="Add any additional relevant details" value={message} onChange={(e) => {setMessage(e.target.value)}}/>
         <button className="send-btn"type="submit" onClick={() => setButtonText("Sent!")}>{buttonText}</button>
       </form>
-      <div className="left-pressure-about">
-          <img alt="clean" src={PressureWasher}></img>
-        </div>
-        <div className="right-pressure-about">
-          <img alt="clean" src={PressureWasher2}></img>
-        </div>
       </div>
     );
   };

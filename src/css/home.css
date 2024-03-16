@@ -1,108 +1,68 @@
 @media only screen and (max-width: 2500px) {
   .home-container {
-    width: 100%;
-    color: #edf5e1;
-    text-align: center;
     display: flex;
+    align-items: center;
     justify-content: center;
+    height: 85vh; /* Full height of the viewport */
+    overflow: hidden;
   }
+  
+  .home-content {
+    flex: 1; /* Take up the other half of the available space */
+  }
+  .image {
+    flex: 1;
+    transform: translateX(150px);
+    z-index: -2;
+  }
+  
   .home-title {
-    position: fixed;
-    top: 30%;
-    left: 5%;
-  }
-  .home-title h1 {
-    font-size: 5rem;
-    text-transform: uppercase;
-  }
-
-  .home-title span {
-    color: #76bbff;
-  }
-
-  .paragraph {
-    font-family: monospace;
-    letter-spacing: 0.03rem;
-    font-size: 1.2rem;
-    position: fixed;
-    top: 50%;
-    left: 15%;
-    width: 40%;
     text-align: left;
-    color: #edf5e1;
+    margin-top: 250px;
   }
-
-  .home-image-container {
-    position: fixed;
-    z-index: -1;
-    top: 20%;
-    left: 58%;
-    display: flex;
+  
+  
+  .title1 {
+    color: #F0D3A7;
+    font-size: calc(10vw + 10vh);
+    margin: 0;
   }
+  
+  .title2 {
+    margin-left: 200px;
+    font-size: calc(10vw + 10vh);
+    color: #412F2D;
+    margin-top: -0.4em; /* Adjust margin to decrease the gap */
 
+  }
+  
+  .title2 span {
+    color: #F0D3A7; /* Adjust the color of the dot */
+  }
+  
   .home-image {
-    width: 95%;
-    height: 50%;
-  }
-
-  .mobile-addy {
-    display: none;
+    width: 85%; /* Ensure the image fills its container */
   }
 }
 
 @media only screen and (max-width: 480px) {
   .home-container {
     width: 100%;
-    color: #edf5e1;
-    text-align: right;
-    display: flex;
-    justify-content: center;
+    color: #F0D3A7;
   }
   .home-title {
+    font-size: 7rem;
     position: fixed;
-    top: 10%;
+    top: 4%;
     right: 12%;
     z-index: -1;
   }
-
-  .mobile-addy {
-    display: contents;
-    font-size: 0.8rem;
-  }
-
-  .addy {
-    color: #76bbff;
-    text-decoration: none !important;
-    font-size: 14px;
-  }
-
-  .addy a {
-    text-decoration: none;
-  }
   .home-title h1 {
-    font-size: 4rem;
+    font-size: 6.5rem;
     text-transform: uppercase;
     z-index: -1;
   }
-  .paragraph {
-    font-family: monospace;
-    font-size: 1.2rem;
-    position: fixed;
-    top: 45%;
-    left: 5%;
-    width: 70%;
-    text-align: left;
-  }
-  .home-image-container {
-    position: fixed;
-    z-index: -1;
-    top: 20%;
-    left: 68%;
-    display: flex;
-  }
-
-  .home-image {
-    width: 95%;
-    height: 50%;
+  .home-image{
+    width: 350px;
   }
 }

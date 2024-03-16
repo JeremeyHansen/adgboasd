@@ -2,61 +2,98 @@
 
 
 .about-container{
-    color: white;
-    justify-content: center;
-    text-align: center;
+    background-color: #EB734A;
+    color: #f0d3a7;
+    margin-top: 100px;
+    max-height: 75vh;
+    overflow: hidden;
 }
-
-.about-container h1{
-    text-transform: uppercase;
-    color: #edf5e1;
-    letter-spacing: 0.03rem;
-    font-size: 36px;
-}
-
-.text-about{
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
-    background-color: rgba(36, 53, 95, 0.9);
-    border-color: white;
-    border-width: 5px;
+.products{
+    background-color: #412F2D;
+    border-color: #f0d3a7;
+    border-width: 2px;
     border-style: solid;
     border-radius: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 70px;
-    width: 75%;
-    padding: 40px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.products h1{
+    margin-left: 15px;
+}
+
+.product-list {
+
+    text-align: center;
+  }
+
+  .products {
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 140px;
+  }
+  
+  .product-list {
+    display: flex;
+    animation: carousel-animation 10s linear infinite alternate; /* Adjust animation duration as needed */
+}
+  
+  .product-list div {
+    flex: 0 0 auto;
+    width: 150px; /* Adjust item width as needed */
+    text-align: center;
+  }
+  
+  @keyframes carousel-animation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-175%);
+    }
+  }
+  
+  
+  .product-list p {
+    font-size: 1.2rem;
+  }
+
+  .about-icon{
+    color:#ea714d;
+    font-size: 2rem;
+  }
+
+.text-about{
+    background-color: #412F2D;
+    border-color: #f0d3a7;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    width: 25%;
+    margin-left: 50px;
+    padding-left: 20px;
+    padding-right: 60px;
+    margin-top: 60px;
+    z-index: 5;
 }
 
 .text-about p{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    margin-top: 30px;
+    text-align: justify;
 }
 
 .text-about span{
-    text-transform: uppercase;
-    font-weight: bold;
+    color: #ea714d;
 }
-
-.left-pressure-about img{
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: -1;
-    margin-top: 100px;
-    width: 400px;
-    margin-left: 50px;
-}
-
-.right-pressure-about img{
+.about-img{
+    width: 50%;
     position: absolute;
     right: 0;
     bottom: 0;
-    z-index: -1;
-    width: 400px;
-    margin-bottom: 100px;
-
+    transform: translateY(60px);
 }
-
 } 
 
 @media only screen and (max-width: 450px) {
@@ -70,7 +107,7 @@
         width: 200px;
     }
     .text-about{
-        background-color: rgba(36, 53, 95, 0.9);
+        background-color: #412F2D;
         border-color: white;
         border-width: 5px;
         border-style: solid;

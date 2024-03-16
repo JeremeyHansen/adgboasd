@@ -1,79 +1,71 @@
 @media only screen and (max-width: 2500px) {
+
+    .service-container1{
+        justify-content: center;
+        height: 100vh;
+        overflow: hidden;
+    }
+
     .service-container{
     display: flex;
-    color: white;
     text-align: center;
+    color: #F0D3A7;
     justify-content: space-around;
-
+    width: 50%;
+    height: 40vh;
+    margin: auto;
+    margin-top: 350px;
 }
 
-.service-container h3{
-    color: #76bbff;
-    text-transform: uppercase;
-    font-size: 1.3rem;
-}
+.title-container {
+    text-align: center; /* Center the text */
+    margin-top: 150px; /* Adjust margin as needed */
+    z-index: 1; /* Ensure the title is on top */
+    position: absolute; /* Position the title absolutely */
+    left: 0;
+    width: 50%; /* Ensure the title spans the full width */
+    top: 0; /* Position the title at the top of the container */
+    display: block; /* Use flexbox for layout */ 
+    margin-left: 100px;
 
-.service-container hr{
-width: 75%;
-border-color: #76bbff;
+  }
+  
+  .title-container h1 {
+    font-size: 5rem; /* Adjust font size as needed */
+    color: #F9f1cc;
+    margin-bottom: 0px; /* Text color */
+  }
+  .title-container h2 {
+    color: #F0D3A7;
+    margin-bottom: 0px;
+    letter-spacing: 15px; /* Adjust the value as needed */
 
-}
-
-.first-div {
-    width: 33%;
-    transition: .3s linear;
-    background-color: rgb(0, 0, 0, .8);
-}
-.service-container div:hover{
-    font-size: 1.5rem;
-}
-
-.first-div{
-    border-style: solid;
-    border-color: white;
-    border-width: 0 2px 0 0px;
-}
-.second-div{
-    width: 33%;
-    border-style: solid;
-    border-color: white;
-    border-width: 0 2px 0 0px;
-    background-color: rgb(0, 0, 0, .8);
-
-}
-.final-div {
-    width: 33%;
-    border-style: solid;
-    border-color: white;
-    border-width: 0 0 0 0;
-    background-color: rgb(0, 0, 0, .8);
-
-}
-.service-container1{
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
-}
-.service-container1 h1{
-    color: #edf5e1;
-    letter-spacing: 0.03rem;
-    font-size: 36px;
-    text-align: center;
-    text-transform: uppercase
-}
+    /* Text color */
+  }
+  .buzz-title{
+    font-weight: 700;
+    font-size: 6rem;
+    letter-spacing: 0.3em;
+    color: #F9f1cc;
+    text-shadow: 5px 5px 0px #FFB650, 
+      4px 4px 0px #FFD662, 
+      8px 8px 0px  #de7747, 
+      12px 12px 0px #ef5050, 
+      16px 16px 0px #563424, 
+      20px 20px 0px #ffab88;
+  }
 
 .button-div button{
     border-style: none;
     border-style: solid;
     border-width: 2px;
     border-radius: 5px;
-    border-color: white;
+    border-color: #F0D3A7;
     background-color: #212022;
     padding: 20px;
     width: 20%;
     margin-left: 40%;
     margin-top: 10%;
-    color: #80cbf7;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -81,31 +73,53 @@ border-color: #76bbff;
 .button-div button:hover{
     cursor: pointer;
 }
+
+.top-div{
+    display: flex;
+}
+.service-img{
+    width: 40%;
+}
+.service-img img{
+    margin-top: 100px;
+    width: 100%;    
+}
 .service-div{
+    display: flex;
+    border-radius: 10px 10px 100px 10px;
+    border: solid;
+    border-width: 0px 0px 4px 6px;
+    border-color:#412F2D;
+    width: 30%;
+    margin-top: 150px;
+    background-color: #F0D3A7;
+    text-align: left;
+    max-height: fit-content;
+    overflow: hidden;
+}
+
+.service-div h2{
+    font-size: 1.2rem;
+    color: #412F2D;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.chart{
+    color: #EB734A;
+    font-size: 7rem;
+    justify-content: center;
     text-align: left;
 }
 
 .service-div p{
-    padding-left: 40%;
-}
-.service-div p:before {
-    content: "• ";
-}
-.left-image-div img{
-    z-index: -1;
-    position: fixed;
-    left: 0;
-    bottom: 0;    
-    width: 400px;
+    color: #412F2D;
+    font-size: .9rem;
+    margin-left: 15px;
+    overflow: hidden; /* Hide overflowing content */
+
 }
 
-.right-image-div img{
-    z-index: -1;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    width: 400px;
-}
 }
 @media only screen and (max-width: 480px) {
     .service-container{
@@ -115,7 +129,6 @@ border-color: #76bbff;
         text-align: right;
         padding-right: 50px;  
         background-color: transparent;
-  
     }
     .left-image-div img{
         z-index: 1;
@@ -132,7 +145,6 @@ border-color: #76bbff;
         width: 100%;
         border-style: none;
         background-color: none;
-
     }
 
     .service-container hr{
@@ -142,24 +154,11 @@ border-color: #76bbff;
         width: 100%;
         border-style: none;
         background-color: none;
-
     }
     .final-div {
         width: 100%;
         border-style: none;
         background-color: none;
-
-    }
-    .service-div{
-        text-align: right;
-        /* padding-right: 80px; */
-    }
-    
-    .service-div p{
-        padding-left: 0%;
-    }
-    .service-div p:before {
-        content: "• ";
     }
     .button-div button{
         display: none;
