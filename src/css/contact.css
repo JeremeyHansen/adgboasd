@@ -1,22 +1,20 @@
 @media only screen and (max-width: 2500px) {
   .contact-container {
-    border: solid 5px #76bbff;
+    border: solid 5px #f0d3a7;
     border-radius: 10px;
     height: 60vh;
     margin-top: 6%;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: rgba(167, 180, 211, 0.95);
+    background-color: #412F2D;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
     display: flex;
     flex-direction: column;
-    color: #edf5e1;
-    font-family: monospace;
+    color: #f0d3a7;
     overflow: scroll;
     text-align: center;
   }
   .contact-container h1 {
-    font-family: monospace;
     text-transform: uppercase;
     margin-top: 3%;
     letter-spacing: 0.03rem;
@@ -39,7 +37,6 @@
   .contact-form input {
     width: 375px;
     font-size: 14px;
-    font-family: "Courier New", Courier, monospace;
     border-style: none;
     border-radius: 5px;
     padding: 6px;
@@ -58,7 +55,6 @@
     width: 375px;
     height: 100px;
     border-radius: 5px;
-    font-family: "Courier New", Courier, monospace;
     border-style: none;
     padding: 6px;
     margin-top: 20px;

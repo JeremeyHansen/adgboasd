@@ -10,24 +10,23 @@
     display: flex;
     text-align: center;
     color: #F0D3A7;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 50%;
     height: 40vh;
     margin: auto;
-    margin-top: 350px;
+    margin-top: 300px;
 }
 
 .title-container {
     text-align: center; /* Center the text */
-    margin-top: 150px; /* Adjust margin as needed */
+    margin-top: 100px; /* Adjust margin as needed */
     z-index: 1; /* Ensure the title is on top */
     position: absolute; /* Position the title absolutely */
     left: 0;
     width: 50%; /* Ensure the title spans the full width */
     top: 0; /* Position the title at the top of the container */
     display: block; /* Use flexbox for layout */ 
-    margin-left: 100px;
-
+    margin-left: 5%;
   }
   
   .title-container h1 {
@@ -91,10 +90,10 @@
     border-width: 0px 0px 4px 6px;
     border-color:#412F2D;
     width: 30%;
-    margin-top: 150px;
+    margin-top: 10%;
     background-color: #F0D3A7;
     text-align: left;
-    max-height: fit-content;
+    height: 85%;
     overflow: hidden;
 }
 
@@ -102,7 +101,7 @@
     font-size: 1.2rem;
     color: #412F2D;
     text-align: left;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 .chart{
@@ -115,6 +114,7 @@
 .service-div p{
     color: #412F2D;
     font-size: .9rem;
+    padding-left: 5px;
     margin-left: 15px;
     overflow: hidden; /* Hide overflowing content */
 

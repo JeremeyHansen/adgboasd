@@ -6,7 +6,6 @@
     color: #f0d3a7;
     margin-top: 100px;
     max-height: 75vh;
-    overflow: hidden;
 }
 .products{
     background-color: #412F2D;
@@ -14,8 +13,7 @@
     border-width: 2px;
     border-style: solid;
     border-radius: 15px;
-    margin-top: 50px;
-    margin-left: 300px;
+    margin-left: 9%;
 }
 
 .products h1{
@@ -28,10 +26,10 @@
   }
 
   .products {
-    width: 30%;
+    width: 40%;
     position: relative;
     overflow: hidden;
-    margin-top: 140px;
+    margin-top: 40px;
   }
   
   .product-list {
@@ -70,16 +68,16 @@
     border-width: 2px;
     border-style: solid;
     border-radius: 15px;
-    width: 25%;
+    width: 30%;
     margin-left: 50px;
     padding-left: 20px;
     padding-right: 60px;
-    margin-top: 60px;
+    margin-top: 40px;
     z-index: 5;
 }
 
 .text-about p{
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     margin-top: 30px;
     text-align: justify;
 }
